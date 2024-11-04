@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI';
+
+    background-color: rgb(229, 202, 161);
+
+    margin: 0;
+}
+
+header {
+    background-color: rgb(195, 160, 107);
+
+    padding-block: 1rem;
+
+    padding-inline: 1rem;
+
+}
+
+nav {
+    display: flex;
+    gap: 75%;
+}
+
+.flex-layout {
+    display: flex;
+    gap: 24px;
+}
+
+.primary-navigation {
+    display: flex;
+
+    list-style: none;
+
+    font-size: small;
+
+    gap: 1rem;
+}
+
+.main-picture {
+
+    display: block;
+
+    max-width: 100%;
+
+    width: 40px;
+
+    font-style: italic;
+    color: brown;
+
+    filter: saturate(50%);
+
+    border-radius: 4px;
+
+    transition: 225ms ease-in-out;
+}
+
+img:hover {
+
+    filter: saturate(100%);
+    border-radius: 22px;
+
+}
+
+
+.nav-link:visited {
+
+    color: chartreuse;
+
+}
+
+.nav-link {
+
+    color:darkblue;
+    list-style: none;
+    transition: 250ms ease-in-out;
+}
+
+.nav-link:hover {
+    
+    color: rgb(85, 85, 255);
+
+}
+
+.nav-link:active {
+
+    color: aqua;
+
+}
+

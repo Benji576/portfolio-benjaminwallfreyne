@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI';
+
+    background-color: blanchedalmond;
+}
+
+.explosion {
+    max-width: 100%;
+
+    width: 200px;
+
+    font-style: italic;
+    color: gray;
+
+    border-radius: 4px;
+    
+    filter: saturate(20%);
+
+    transition: 300ms ease-in-out;
+}
+
+.weezer {
+    max-width: 100%;
+
+    width: 225px;
+
+    font-style: italic;
+    color: gray;
+
+    border-radius: 4px;
+    
+    filter: saturate(10%);
+
+    transition: 300ms ease-in-out;
+}
+
+.yea {
+    max-width: 100%;
+
+    width: 250px;
+
+    font-style: italic;
+    color: gray;
+
+    border-radius: 4px;
+    
+    filter: saturate(0%);
+
+    transition: 300ms ease-in-out;
+}
+
+
+img:hover {
+    filter: saturate(120%);
+    width: 300px;
+    border-radius: 100px;
+}
+
+iframe {
+    max-width: 100%;
+
+    width: 350px;
+
+    border-radius: 6px;
+
+    transition: 300ms ease-in-out;
+}
+
+iframe:hover {
+    width: 600px;
+    border-radius: 75px;
+
+}

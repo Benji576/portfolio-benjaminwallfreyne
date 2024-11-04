@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: blanchedalmond;
+}
+
+h1 {
+    background-color: rgb(249, 209, 160);
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    color:brown    ;
+    
+}
+
+
+img {
+
+    display: block;
+
+    max-width: 100%;
+
+    object-fit: cover;
+    
+    font-style: italic;
+    color: gray;
+
+    border-radius: 360px;
+
+    filter: saturate(100%);
+
+    transition: filter 250ms ease-in-out;
+}
+
+img:hover {
+    filter: saturate(200%);
+    
+}
+
+.videoplayer {
+    width: 720;
+    height: 480;
+}
+
+.links {
+    display: block;
+    color: rgb(56, 0, 84);
+    transition: color 325ms ease-in-out;
+}
+
+.links:hover {
+    color: rgb(200, 0, 170);
+}
+
+.links:active {
+    color: red;
+}
